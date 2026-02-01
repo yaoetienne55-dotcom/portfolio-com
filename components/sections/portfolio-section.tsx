@@ -124,28 +124,6 @@ const projects = [
       competences: ["Développement Web", "UI/UX Design", "E-commerce", "SEO"]
     }
   },
-  {
-    title: "Stratégie de Growth Hacking & Scaling",
-    category: "Stratégie & Croissance",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop",
-    color: "from-blue-600/20 to-indigo-600/20",
-    details: {
-      contexte: "Les startups et PME stagnent souvent après une phase de croissance initiale.",
-      objectif: "Acquisition et rétention accélérée.",
-      actions: [
-        "Audit de l'entonnoir AARRR",
-        "Mise en place de tests A/B",
-        "Automatisation du marketing automation",
-        "Analyse de données poussée"
-      ],
-      resultats: [
-        "Augmentation du trafic qualifié de 150%",
-        "Réduction du CAC de 30%",
-        "Amélioration de la LTV"
-      ],
-      competences: ["Growth Marketing", "Data Analysis", "A/B Testing", "Marketing Automation"]
-    }
-  },
 ]
 
 export function PortfolioSection() {
@@ -166,9 +144,6 @@ export function PortfolioSection() {
               Projets d’automatisation & d’analyse
             </p>
           </div>
-          <Button variant="outline" className="hidden md:flex gap-2">
-            Voir tous les projets <ArrowUpRight className="h-4 w-4" />
-          </Button>
         </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

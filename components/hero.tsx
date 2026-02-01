@@ -29,7 +29,7 @@ export function Hero() {
                 </Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="text-base font-semibold h-12 px-8">
-                <Link href="/portfolio">
+                <Link href="/#portfolio">
                   Voir mes réalisations
                 </Link>
               </Button>
