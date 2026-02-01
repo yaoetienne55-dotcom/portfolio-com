@@ -7,6 +7,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { WhatsAppFloat } from "@/components/whatsapp-float";
 
 import { ThemeProvider } from "@/components/theme-provider";
+import { Analytics } from "@vercel/analytics/next"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -44,6 +45,7 @@ export default function RootLayout({
             <div className="flex-1">{children}</div>
             <SiteFooter />
             <WhatsAppFloat />
+            <Analytics />
           </div>
         </ThemeProvider>
       </body>
