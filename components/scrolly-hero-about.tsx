@@ -174,7 +174,7 @@ export function ScrollyHeroAbout() {
                         <Link href="https://wa.me/2250715967408" target="_blank">Démarrer un projet <ArrowRight className="ml-2 h-4 w-4" /></Link>
                     </Button>
                     <Button asChild variant="outline" size="lg" className="text-base font-bold h-14 rounded-2xl backdrop-blur-sm border-border/50 active:scale-95 transition-transform">
-                        <Link href="/portfolio">Voir mes réalisations</Link>
+                        <Link href="/#portfolio">Voir mes réalisations</Link>
                     </Button>
                 </div>
             </motion.div>
@@ -308,7 +308,7 @@ export function ScrollyHeroAbout() {
                         <Link href="https://wa.me/2250715967408" target="_blank">Démarrer un projet <ArrowRight className="ml-2 h-4 w-4" /></Link>
                     </Button>
                     <Button asChild variant="outline" size="lg" className="text-base font-semibold h-12 px-8">
-                        <Link href="/portfolio">Voir mes réalisations</Link>
+                        <Link href="/#portfolio">Voir mes réalisations</Link>
                     </Button>
                 </div>
 
